@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Application tickets d’intervention — Eloi Saint-Gaudin</title>
+  <meta name="description" content="Projet : application de gestion de tickets d’intervention (PHP/MySQL/Bootstrap + scripts Python)." />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="../index.html" class="brand-link">Eloi Saint-Gaudin</a>
+      </div>
+
+      <nav class="nav" aria-label="Navigation principale">
+        <a href="../index.html">Accueil</a>
+        <a href="../a-propos.html">À propos</a>
+        <a href="../projets.html" aria-current="page">Projets</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu" class="container">
+    <section class="card">
+      <h1>Application de gestion de tickets d’intervention</h1>
+      <p class="muted">Application web pour créer/assigner/suivre des tickets, avec base de données MySQL, UI Bootstrap et scripts Python.</p>
+
+      <div class="grid-2">
+        <div>
+          <h2>Fonctionnalités (exemples)</h2>
+          <ul class="list">
+            <li>Création / suivi de tickets (statuts, priorités)</li>
+            <li>Gestion des utilisateurs (selon le projet)</li>
+            <li>Historique et recherche</li>
+            <li>Exports / automatisations via Python</li>
+          </ul>
+
+          <h2>Technologies</h2>
+          <div class="tags" aria-label="Technologies">
+            <span class="tag">PHP</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">Bootstrap</span>
+            <span class="tag">Python</span>
+          </div>
+        </div>
+
+        <div>
+          <h2>Réalisation</h2>
+          <ul class="list">
+            <li>Modèle de données (tables tickets/utilisateurs, relations)</li>
+            <li>CRUD côté PHP + requêtes SQL</li>
+            <li>Interface Bootstrap (formulaires, tableaux)</li>
+            <li>Scripts Python (imports, traitements, notifications…)</li>
+          </ul>
+
+          <h2>Livrables</h2>
+          <ul class="list">
+            <li>Repo (code) + script SQL de création DB</li>
+            <li>Captures d’écran / doc utilisateur</li>
+          </ul>
+
+          <details class="fold" aria-label="Comment j’aurais mieux fait">
+            <summary>Comment j’aurais mieux fait</summary>
+            <div class="fold-body">
+              <ul class="list">
+                <li>Définir dès le départ les rôles et droits (admin/technicien/demandeur)</li>
+                <li>Structurer l’API/les routes PHP et sécuriser (validation, requêtes préparées)</li>
+                <li>Ajouter des migrations SQL et une meilleure documentation d’installation</li>
+              </ul>
+            </div>
+          </details>
+        </div>
+      </div>
+
+      <div class="actions">
+        <a class="btn" href="../projets.html">← Retour aux projets</a>
+        <a class="btn primary" href="../GestionTickets/index.php" target="_blank" rel="noopener">Ouvrir l'application GestionTickets</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>© <span id="year"></span> Eloi Saint-Gaudin</small>
+    </div>
+  </footer>
+
+  <script src="../js/site.js" defer></script>
+</body>
+</html>
