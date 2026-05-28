@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projets — Eloi Saint-Gaudin</title>
+  <meta name="description" content="Projets d’Eloi Saint-Gaudin (BUT Réseaux & Télécommunications)." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="index.html" class="brand-link">Eloi Saint-Gaudin</a>
+
+      </div>
+
+      <nav class="nav" aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a href="a-propos.html">À propos</a>
+        <a href="projets.html" aria-current="page">Projets</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu" class="container">
+    <section class="card">
+      <div class="stack">
+        <h1>Projets</h1>
+      </div>
+
+      <div class="toolbar">
+        <input id="projectSearch" class="input" type="search" placeholder="Rechercher un projet…" autocomplete="off" />
+      </div>
+
+      <div id="projectsStatus" class="muted" role="status" aria-live="polite"></div>
+      <div id="projectsGrid" class="projects-grid" aria-label="Liste des projets"></div>
+
+      <noscript>
+        <p>Active JavaScript pour voir la liste des projets.</p>
+      </noscript>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>© <span id="year"></span> Eloi Saint-Gaudin</small>
+      <small class="muted">Dernière mise à jour : <time datetime="2026-05-13">13/05/2026</time></small>
+    </div>
+  </footer>
+
+  <script src="js/site.js" defer></script>
+  <script src="js/projects.js" defer></script>
+</body>
+</html>
