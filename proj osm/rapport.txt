@@ -1,0 +1,9 @@
+# Rapport SAE 15
+## <u>Partie 1</u>
+Sur la partie du sujet où nous avions été laissé en autonomie, nous avons fait le choix de parler des bars dans la ville demandée par l'utilisateur. Nou savons ensuite précisé notre  sujet sur l'association des bars qui ont une terrasse et des bars qui vendent du tabac, pour savoir si les bars qui vendent du tabac permettent de le fumer directement chez eux.
+
+Dans le code, il nous est important de mentionner que nous avons du importer la bibliotheque time afin de de ne surcharger ou bruteforce l'API. Nous avons aussi mis la majorité du code dans une seule fonction comme cela rendait plus simple et plus propre.
+
+## <u>Partie 2</u>
+Nous avons rencontré comme difficulté de comprendre ce qu'était un API à la source, la compréhension d ulanguage d'overpass turbo, et comment et communiquer de python jusqu'à l'API Open street map, ce qui nous a aidé le plus est la documentation des differentes ressources mises a notre disposition.
+

@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Réalisation du portfolio — Eloi Saint-Gaudin</title>
+  <meta name="description" content="Projet : conception et développement d'un portfolio personnel pour présenter mes travaux et compétences." />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="../index.html" class="brand-link">Eloi Saint-Gaudin</a>
+      </div>
+
+      <nav class="nav" aria-label="Navigation principale">
+        <a href="../index.html">Accueil</a>
+        <a href="../a-propos.html">À propos</a>
+        <a href="../projets.html" aria-current="page">Projets</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu" class="container">
+    <section class="card">
+      <h1>Réalisation du portfolio</h1>
+      <p class="muted">Conception et développement d'un site personnel pour présenter mes travaux, compétences et expériences en tant qu'étudiant en BUT Réseaux & Télécommunications.</p>
+
+      <div class="grid-2">
+        <div>
+          <h2>Objectifs</h2>
+          <ul class="list">
+            <li>Présenter une sélection de projets avec descriptions et détails.</li>
+            <li>Rendre le site responsive (mobile/tablette/desktop).</li>
+            <li>Utiliser des bonnes pratiques HTML/CSS et une structure sémantique.</li>
+            <li>Faciliter le premier contact et la prise de rendez-vous.</li>
+            <li>Optimiser l'accessibilité et la performance.</li>
+          </ul>
+
+          <h2>Technologies</h2>
+          <div class="tags" aria-label="Technologies">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">Flexbox</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </div>
+
+        <div>
+          <h2>Réalisation</h2>
+          <ul class="list">
+            <li>Structuration en pages (accueil, projets, à propos, contact)</li>
+            <li>Design responsive basé sur Flexbox</li>
+            <li>Système de gestion des projets (JSON + JavaScript)</li>
+            <li>Intégration d'un formulaire de contact</li>
+            <li>Tests d'accessibilité et responsivité</li>
+          </ul>
+
+          <h2>Livrables</h2>
+          <ul class="list">
+            <li>Site complet et fonctionnel</li>
+            <li>Code source structuré et commenté</li>
+            <li>Responsive design (mobile/desktop)</li>
+          </ul>
+
+          <details class="fold" aria-label="Comment j'aurais mieux fait">
+            <summary>Comment j'aurais mieux fait</summary>
+            <div class="fold-body">
+              <ul class="list">
+                <li>Ajouter un système de blog ou de méta-données plus riche</li>
+                <li>Intégrer des tests e2e pour la responsivité</li>
+                <li>Optimiser les images (WebP, lazy-loading)</li>
+                <li>Ajouter un dark mode / mode clair</li>
+              </ul>
+            </div>
+          </details>
+        </div>
+      </div>
+
+      <div class="actions">
+        <a class="btn" href="../projets.html">← Retour aux projets</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>© <span id="year"></span> Eloi Saint-Gaudin</small>
+    </div>
+  </footer>
+
+  <script src="../js/site.js" defer></script>
+</body>
+</html>

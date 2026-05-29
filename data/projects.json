@@ -1,5 +1,15 @@
 [
   {
+    "title": "Réalisation du portfolio",
+    "date": "2026",
+    "summary": "Conception et développement d'un site portfolio personnel pour présenter mes travaux, compétences et expériences en tant qu'étudiant en BUT Réseaux & Télécommunications.",
+    "page": "projets/portfolio.html",
+    "technologies": ["HTML", "CSS", "Flexbox", "JavaScript"],
+    "links": [
+      { "label": "Site", "url": "../index.html" }
+    ]
+  },
+  {
     "title": "Architecture réseau (Cisco 2960 + routeurs)",
     "date": "2026",
     "summary": "Création d’une petite architecture réseau avec routeurs et switches Cisco 2960 : plan d’adressage, VLAN, routage et tests de connectivité.",
